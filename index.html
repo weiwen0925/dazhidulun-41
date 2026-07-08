@@ -838,4 +838,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C41P3:END-->
+<!--WY-C41P4:BEGIN-->
+<style id="wy-c41p4-css">
+.c41p4-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c41p4-fabbox.show{display:block;}
+.c41p4-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c41p4-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c41p4-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c41p4-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c41p4-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c41p4-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c41p4-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c41p4-modal.open{display:flex;}
+.c41p4-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c41p4-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c41p4-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c41p4-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c41p4-close:hover{background:#e3d5b8;}
+.c41p4-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c41p4-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c41p4-tbl th,.c41p4-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c41p4-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c41p4-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c41p4-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c41p4-tbl b{color:#8b2500;}
+.c41p4-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c41p4-note b{color:#8b2500;}
+@media(max-width:900px){.c41p4-fabbox{right:14px;}.c41p4-tbl{font-size:11.5px;}.c41p4-card{padding:26px 14px 16px;}}
+</style>
+<div class="c41p4-fabbox" id="c41p4Box"><button class="c41p4-btn" id="c41p4Btn" type="button" aria-label="開啟全景總表"><span class="c41p4-ic">▦</span><span class="c41p4-ls"><span class="c41p4-l1">本品 · 頂墮與智火冶煉</span><span class="c41p4-l2">順道法愛生 · 拔梯入位</span></span></button></div><div class="c41p4-modal" id="c41p4Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c41p4-card"><button class="c41p4-close" id="c41p4Close" type="button" aria-label="關閉">×</button><h3>卷四十一·第四品 頂墮與智火冶煉 · 全景總表</h3><p class="sub">卷四十一・第四品｜四大險坑三毒對治・順道法愛生・生瓶熟瓶智火冶煉・拔一切觀法入位</p><table class="c41p4-tbl"><caption>一、四大險坑與獨問墮頂（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>四大險坑</td><td>惡道（粗重煩惱）、貧賤（福德不足）、二乘地（悲心不足）——三者顯性陷阱；菩薩頂（微細法執）最為隱蔽</td></tr><tr><td>獨問墮頂</td><td>三事先已說，墮頂未說故問——墮頂乃高階微細法執，是即將證入無生法忍前的最後一道隱蔽裂縫，非般若不能度</td></tr><tr><td>三毒轉三力</td><td>以本立末，貪→不貪善根→深入禪定（防惡道貧賤）；瞋→不瞋善根→深入慈悲（防二乘）；癡→不癡善根→深入般若（防墮頂）</td></tr><tr><td>病灶：生名愛法</td><td>若不以方便行六度、入三三昧而不墮二乘亦不入菩薩位，是名菩薩摩訶薩法生故墮頂——生即是愛法</td></tr><tr><td>順道法愛生</td><td>於色是空乃至識是空、無相無作寂滅等一切法受念著，愈是隨順正道這份愛愈隱蔽愈危險</td></tr><tr><td>頂的悖論</td><td>垂近應得而失者名為墮——非跌入地獄，而是明明即將證得無生法忍卻因一念微細執著而停滯</td></tr></tbody></table><table class="c41p4-tbl"><caption>二、法愛之病的四重中觀辯證</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>藥反成病</td><td>譬如必死之人雖加諸藥藥反成病，菩薩於畢竟空不生不滅法忍中而生愛著，反為其患——解藥一旦被貪愛即合成無法治癒的複合毒素</td></tr><tr><td>多食不消</td><td>初發心時貪受法食，無方便行諸善法深心繫著——如吞食過量大補之物卻無法消化，善法本身無過過在多食不消</td></tr><tr><td>二諦之累</td><td>法愛於人天中為妙（世俗諦推動修行的動力），於無生法忍為累（勝義諦微細愛慕成解脫枷鎖）——同一份愛在不同諦上價值相反</td></tr><tr><td>中觀嚴厲警告</td><td>大聖說空法為離諸見故，若復見有空諸佛所不化——執著解藥即成絕症，連「空」也執為實有便連諸佛也無能為力</td></tr><tr><td>法愛的本質</td><td>一切法中憶想分別諸觀是非隨法而愛，是「有所得」的微細投射——心不敢真正放手，總要為自己留一個可攀附的對象</td></tr><tr><td>智火冶煉</td><td>生（雜有法愛無諸法實相智慧火，如生瓶盛水則爛壞）與熟（智火燒盡執著能信受諸佛實相智慧，如熟瓶能盛受水）本體之別</td></tr></tbody></table><table class="c41p4-tbl"><caption>三、一事三名與拔梯入位的終極操作</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>空間維度·頂</td><td>於柔順忍無生忍中間所有法名為頂，住是頂上直趣佛道不復畏墮——凡聖分水嶺上的臨界高點</td></tr><tr><td>力學維度·位</td><td>頂增長堅固名為菩薩位，一切結使一切魔民不能動搖——從站不穩到動不了的穩固化</td></tr><tr><td>本質維度·不生</td><td>異於生故，愛等結使雜諸善法名為生，不生即徹底脫離生心（法愛沾黏）進入無生滅的永恆寂靜</td></tr><tr><td>兩階智慧過渡</td><td>第一階依止生滅智慧以無常觀破常顛倒（過渡手段），第二階離生滅智慧連對治法亦須捨棄方入不生不滅</td></tr><tr><td>拔字訣</td><td>位者拔一切無常等諸觀法故名為位，若不如是是為順道法愛生——法尚應捨何況非法，連登頂用的觀法之梯都須親手拔除</td></tr><tr><td>忍的終極真義</td><td>能信能受能持故名為忍——面對不生不滅的絕對實相，心不再因恐懼空無而抓取任何法愛作為支撐，即是無生法忍</td></tr></tbody></table><p class="c41p4-note">釋勸學品第八在此深入《大智度論》最幽微的一坑——菩薩頂。真正的危險不在造惡，而在<b>對善法與空性本身生起微細的愛著</b>（順道法愛生）。龍樹菩薩以「藥反成病」「多食不消」層層逼近病灶，再以「生瓶遇水則化、熟瓶能盛實相水」的智火冶煉譬喻指出療方，終於「拔」字訣收束全品心法——入正位不是抓住什麼，而是連用來登頂的無常觀、空觀等法門都須親手拔除。法尚應捨，何況非法，方能無依無懼，直趣佛道。</p></div></div>
+<script id="wy-c41p4-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c41p4Btn"),BOX=document.getElementById("c41p4Box"),MODAL=document.getElementById("c41p4Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=3;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-vfab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c41p4Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C41P4:END-->
 </body></html>
